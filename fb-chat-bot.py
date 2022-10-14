@@ -508,9 +508,11 @@ class ChatBot(Client):
             elif ("frank thanks" in msg):
                 reply = "You're welcome🙂"
                 sendMsg()
-            elif ("frank gandu" in msg if "gandu" in msg):
-                 reply = "roz gand mrwata ha"
-                 sendMsg()  
+                
+             if(re.findall("upset",request3.lower())==upset):
+                    print("chatbot:I'm sorry to hear that")
+                    request3=input("user:")
+                    
             elif ("frank wow" in msg):
                 reply = "🙂😊"
                 sendMsg()
