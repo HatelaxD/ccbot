@@ -500,7 +500,7 @@ class ChatBot(Client):
                 reply = "Thanks!"
                 sendMsg()
             elif ("frank gandu" in msg):
-                reply = "Thanks!"
+                reply = "arre kal hi usa me na choda"
                 sendMsg()
             elif ("frank no problem" in msg):
                 reply = "Okay😊🙂"
