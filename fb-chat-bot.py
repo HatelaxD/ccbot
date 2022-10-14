@@ -481,7 +481,7 @@ class ChatBot(Client):
             elif("frank help me" in msg):
                 reply = "Sure! What should I do?"
                 sendMsg()
-            elif("frank (text) gandu " in msg):
+            elif("frank user.name.split()[0] gandu " in msg):
                 reply = "roz gand mewati ha"
                 sendMsg()
             elif("frank tari ma ki chut" in msg):
@@ -587,7 +587,7 @@ class ChatBot(Client):
                     elif(thread_type == ThreadType.GROUP):
                         user = self.fetchUserInfo(f"{author_id}")[
                             f"{author_id}"]
-                        username = username.split()[0]
+                        username = user.name.split()[0]
                         reply = f"{username} just unsent a video"
                         self.send(Message(text=reply), thread_id=thread_id,
                                   thread_type=thread_type)
