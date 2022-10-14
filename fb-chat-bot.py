@@ -587,7 +587,7 @@ class ChatBot(Client):
                     elif(thread_type == ThreadType.GROUP):
                         user = self.fetchUserInfo(f"{author_id}")[
                             f"{author_id}"]
-                        username = user.name.split()[0]
+                        username = username.split()[0]
                         reply = f"{username} just unsent a video"
                         self.send(Message(text=reply), thread_id=thread_id,
                                   thread_type=thread_type)
@@ -632,7 +632,7 @@ class ChatBot(Client):
                   thread_type=thread_type)
 
     def onEmojiChange(self, mid=None, author_id=None, new_color=None, thread_id=None, thread_type=ThreadType.USER, **kwargs):
-        reply = "You changed the emoji 😎. Great!"
+        reply = f"changed the emoji 😎. Great!"
         self.send(Message(text=reply), thread_id=thread_id,
                   thread_type=thread_type)
 
