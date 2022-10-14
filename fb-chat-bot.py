@@ -505,7 +505,7 @@ class ChatBot(Client):
             elif ("frank no problem" in msg):
                 reply = "Okay😊🙂"
                 sendMsg()
-            elif ("frank say (self, mid=None, author_id=None, thread_id=None, thread_type=None, ts=None, msg=None): ki bahn randi ha " in msg):
+            elif ("frank say f"{user.name} ki bahn randi ha " in msg):
                 reply = "(self, mid=None, author_id=None, thread_id=None, thread_type=None, ts=None, msg=None): ki bahn randi ha 🙂"
                 sendMsg()
             elif ("frank thanks" in msg):
