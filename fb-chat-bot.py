@@ -512,18 +512,9 @@ class ChatBot(Client):
             elif ("frank thanks" in msg):
                 reply = "You're welcome🙂"
                 sendMsg()
-            elif ("frank,gandu" in msg):
+            elif ("frank gandu" in msg if "gandu" in msg):
                  reply = "roz gand mrwata ha"
                  sendMsg()  
-            elif ("frank zack gandu ha na" in msg):
-                 reply = "roz gand mrwata ha"
-                 sendMsg()
-            elif ("frank nomi gandu ha na" in msg):
-                 reply = "roz gand mrwata ha"
-                 sendMsg() 
-            elif ("frank hatela gandu ha na" in msg):
-                reply = "tari ma ki chut chup bth"
-                sendMsg()
             elif ("frank wow" in msg):
                 reply = "🙂😊"
                 sendMsg()
