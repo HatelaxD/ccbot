@@ -478,7 +478,7 @@ class ChatBot(Client):
             elif ("frank i love you" in msg):
                 reply = "ok then"
                 sendMsg()
-            elif("frank help me" in msg):
+            elif("frank help" in msg):
                 reply = "Sure! What should I do?"
                 sendMsg()
             elif("frank gandu" in msg):
