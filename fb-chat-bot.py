@@ -493,7 +493,7 @@ class ChatBot(Client):
             elif ("frank marry me" in msg):
                 reply = "Yes, if you are nice and kind girl. But if you are boy RIP."
                 sendMsg()
-            elif ("you from" in msg):
+            elif ("frank you from" in msg):
                 reply = "I am from Pakistan. Currently living in karachi"
                 sendMsg()
             elif ("frank you sure" in msg):
@@ -505,13 +505,13 @@ class ChatBot(Client):
             elif ("frank no problem" in msg):
                 reply = "Okay😊🙂"
                 sendMsg()
-            elif ("frank [user.name] ki maa randi ha " in msg):
+            elif ("frank '.' ki maa randi ha " in msg):
                 reply = "kal hi muj sa chdwa kr gai 🙂"
                 sendMsg()
             elif ("frank thanks" in msg):
                 reply = "You're welcome🙂"
                 sendMsg()
-            elif ("frank hameed gandu ha na" in msg):
+            elif ("frank '.' gandu" in msg):
                  reply = "roz gand mrwata ha"
                  sendMsg()  
             elif ("frank zack gandu ha na" in msg):
@@ -667,7 +667,7 @@ cookies = {
     "fr": "0NxayJuewRHQ30OX3.AWVJwIYNh0Tt8AJv6kSwDamhkoM.BiMrVd.Iu.AAA.0.0.BiMtVZ.AWXMVaiHrpQ",
     "c_user": "100055065882693",
     "datr": "xasyYs51GC0Lq5H5lvXTl5zA",
-    "xs": "39%3AdSbyORZ6oSehsA%3A2%3A1665594085%3A-1%3A6126%3A%3AAcVEzxm8Fa-Sn4cxmmCaiZIKYfdcN-WcLgUV3J3LRYc"
+    "xs": "17%3AwWU96zCx1L5BNA%3A2%3A1665759626%3A-1%3A6126%3A%3AAcUwTCso3cGA3xmdNORvzRIojLwiIoMEhfa0bxsEXw"
 }
 
 
