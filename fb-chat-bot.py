@@ -547,9 +547,6 @@ class ChatBot(Client):
             elif (msg == "hi"):
                 reply = "Hello! How can I help you?"
                 sendMsg()
-            else:
-                reply = "pahla lund chat"
-                sendMsg()
         except Exception as e:
             print(e)
 
