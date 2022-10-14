@@ -472,16 +472,16 @@ class ChatBot(Client):
                     sendQuery()
                 except:
                     pass
-            elif ("frank listen" in msg):
+            elif ("*frank" in msg):
                 reply = "yes"
                 sendMsg()
             elif ("frank i love you" in msg):
-                reply = "but i love your sister"
+                reply = "ok then"
                 sendMsg()
             elif("frank help me" in msg):
                 reply = "Sure! What should I do?"
                 sendMsg()
-            elif("frank "search user" gandu " in msg):
+            elif("frank () gandu " in msg):
                 reply = "roz gand mewati ha"
                 sendMsg()
             elif("frank tari ma ki chut" in msg):
@@ -505,7 +505,7 @@ class ChatBot(Client):
             elif ("frank no problem" in msg):
                 reply = "Okay😊🙂"
                 sendMsg()
-            elif ("frank "search user" ki bahn randi ha " in msg):
+            elif ("frank () ki bahn randi ha " in msg):
                 reply = "yes 🙂"
                 sendMsg()
             elif ("frank thanks" in msg):
@@ -529,7 +529,7 @@ class ChatBot(Client):
             elif ("frank hatela gandu ha na" in msg):
                 reply = "tari ma ki chut chup bth"
                 sendMsg()
-            elif ("wow" in msg):
+            elif ("frank wow" in msg):
                 reply = "🙂😊"
                 sendMsg()
             elif ("bye" in msg):
