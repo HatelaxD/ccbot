@@ -481,7 +481,7 @@ class ChatBot(Client):
             elif("frank help me" in msg):
                 reply = "Sure! What should I do?"
                 sendMsg()
-            elif("frank user.name.split()[0] gandu " in msg):
+            elif("frank [] gandu " in msg):
                 reply = "roz gand mewati ha"
                 sendMsg()
             elif("frank tari ma ki chut" in msg):
@@ -505,7 +505,7 @@ class ChatBot(Client):
             elif ("frank no problem" in msg):
                 reply = "Okay😊🙂"
                 sendMsg()
-            elif ("frank (username) ki bahn randi ha " in msg):
+            elif ("frank ki bahn randi ha " in msg):
                 reply = "yes 🙂"
                 sendMsg()
             elif ("frank thanks" in msg):
