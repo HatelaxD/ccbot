@@ -446,7 +446,7 @@ class ChatBot(Client):
                 sendQuery()
             elif "corona of" in msg:
                 corona_details(msg.split()[2])
-            elif ("calculus" in msg):
+            elif ("calculate" in msg):
                 stepWiseCalculus(" ".join(msg.split(" ")[1:]))
             elif ("algebra" in msg):
                 stepWiseAlgebra(" ".join(msg.split(" ")[1:]))
@@ -481,7 +481,7 @@ class ChatBot(Client):
             elif("frank help me" in msg):
                 reply = "Sure! What should I do?"
                 sendMsg()
-            elif("*#frank" in msg):
+            elif("frank split[0] gandu" in msg):
                 reply = "arre kal hi to me na iski gand mari ha"
                 sendMsg()
             elif("frank tari ma ki chut" in msg):
@@ -505,18 +505,12 @@ class ChatBot(Client):
             elif ("frank no problem" in msg):
                 reply = "Okay😊🙂"
                 sendMsg()
-            elif ("frank ki bahn randi ha " in msg):
-                reply = "yes 🙂"
+            elif ("frank [user.name] ki maa randi ha " in msg):
+                reply = "kal hi muj sa chdwa kr gai 🙂"
                 sendMsg()
             elif ("frank thanks" in msg):
                 reply = "You're welcome🙂"
                 sendMsg()
-            elif ("frank  gandu " in msg):
-                reply = "roz me iski gand marta hu"
-                sendMsg()
-            elif ("frank maan gandu " in msg):
-                 reply = "roz gand mrwata ha"
-                 sendMsg() 
             elif ("frank hameed gandu ha na" in msg):
                  reply = "roz gand mrwata ha"
                  sendMsg()  
