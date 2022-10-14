@@ -514,10 +514,10 @@ class ChatBot(Client):
             elif ("frank (self, mid=None, author_id=None, thread_id=None, thread_type=None, ts=None, msg=None): gandu ha na" in msg):
                 reply = "roz me iski gand marta hu"
                 sendMsg()
-            elif ("frank maan gandu......" in msg):
+            elif ("frank maan gandu" in msg):
                  reply = "roz gand mrwata ha"
                  sendMsg() 
-            elif ("frank hameed gandu......" in msg):
+            elif ("frank hameed gandu" in msg):
                  reply = "roz gand mrwata ha"
                  sendMsg()  
             elif ("frank zack gandu ha na" in msg):
