@@ -472,7 +472,7 @@ class ChatBot(Client):
                     sendQuery()
                 except:
                     pass
-            elif ("frank" in msg):
+            elif ("*frank" in msg):
                 reply = "yes"
                 sendMsg()
             elif ("frank i love you" in msg):
