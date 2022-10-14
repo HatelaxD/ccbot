@@ -484,9 +484,6 @@ class ChatBot(Client):
             elif("frank tari ma ki chut" in msg):
                 reply = "tari ma ki nai ha?"
                 sendMsg()
-            elif ("frank tu gandu ha" in msg):
-                reply = "Tara baap."
-                sendMsg()
             elif ("frank marry me" in msg):
                 reply = "Yes, if you are nice and kind girl. But if you are boy RIP."
                 sendMsg()
@@ -500,7 +497,7 @@ class ChatBot(Client):
                 reply = "Thanks!"
                 sendMsg()
             elif ("frank gandu" in msg):
-                reply = "5 rupy da kr iski gand maro"
+                reply = "thanks!"
                 sendMsg()
             elif ("frank no problem" in msg):
                 reply = "Okay😊🙂"
