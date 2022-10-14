@@ -403,9 +403,9 @@ class ChatBot(Client):
 
        
         try:
-            if("search pdf" in msg):
+            if("frank search pdf" in msg):
                 searchFiles(self)
-            elif("download youtube" in msg):
+            elif("frank download youtube" in msg):
                 headers = {
                     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
                 link = "".join(msg.split()[-3:])
@@ -481,7 +481,7 @@ class ChatBot(Client):
             elif("frank help me" in msg):
                 reply = "Sure! What should I do?"
                 sendMsg()
-            elif("frank () gandu " in msg):
+            elif("frank a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z gandu " in msg):
                 reply = "roz gand mewati ha"
                 sendMsg()
             elif("frank tari ma ki chut" in msg):
