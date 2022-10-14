@@ -481,10 +481,10 @@ class ChatBot(Client):
             elif("frank help" in msg):
                 reply = "Sure! What should I do?"
                 sendMsg()
-            elif("frank gandu" in msg):
-              gandu = input()
-             if gandu =="arre kal hi to me na iski gand mari ha"
-                sendMsg()
+            elif("frank __ gandu" in msg):
+                if ("gandu" in msg):
+              reply = "arre kal hi iski gand mari me na"
+               sendMsg()
             elif("frank tari ma ki chut" in msg):
                 reply = "tari ma ki nai ha?"
                 sendMsg()
