@@ -405,7 +405,7 @@ class ChatBot(Client):
         try:
             if("frank search pdf" in msg):
                 searchFiles(self)
-            elif("frank download youtube" in msg):
+            elif("*frank play" in msg):
                 headers = {
                     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
                 link = "".join(msg.split()[-3:])
@@ -600,7 +600,7 @@ class ChatBot(Client):
                         user = self.fetchUserInfo(f"{author_id}")[
                             f"{author_id}"]
                         username = user.name.split()[0]
-                        reply = f"{username} just unsent a message:\n{unsent_msg}"
+                        reply = f"{user_name} just unsent a message:\n{unsent_msg}"
                         self.send(Message(text=reply), thread_id=thread_id,
                                   thread_type=thread_type)
 
