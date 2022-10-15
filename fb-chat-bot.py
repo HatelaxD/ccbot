@@ -499,6 +499,9 @@ class ChatBot(Client):
             elif ("*gandu" in msg):
                 reply = "kal hi isa me na choda"
                 sendMsg()
+            elif ("frank joke" in msg):
+                reply = "1 larki ki shadi hoi uska husband pahli rat mar gaya jab me na waja puchi to kahti me room main gai usna apna kapra utara tha me na pucha ya kya ha to usna kaha chiriya, me na kaha me khelu to kahta han us chirya na larki ka muh pr thuka larki ko gussa aya usna chirya ki gardan tor di anda phor diya or ghounsla jala dia."
+                sendMsg()
             elif ("frank no problem" in msg):
                 reply = "Okay😊🙂"
                 sendMsg()
