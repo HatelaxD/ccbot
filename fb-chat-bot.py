@@ -593,7 +593,7 @@ class ChatBot(Client):
                             file_urls=unsent_msg, message=None, thread_id=thread_id, thread_type=ThreadType.GROUP)
                 else:
                     if(thread_type == ThreadType.USER):
-                        reply = f"You just unsent a message:\n{unsent_msg} "
+                        reply = f"{username}You just unsent a message:\n{unsent_msg} "
                         self.send(Message(text=reply), thread_id=thread_id,
                                   thread_type=thread_type)
                     elif(thread_type == ThreadType.GROUP):
