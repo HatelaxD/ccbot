@@ -496,7 +496,7 @@ class ChatBot(Client):
             elif ("frank great" in msg):
                 reply = "Thanks!"
                 sendMsg()
-            elif ("gandu" in msg):
+            elif ("frank gandu" in msg):
                 reply = "kal hi isa me na choda"
                 sendMsg()
             elif ("frank no problem" in msg):
