@@ -476,7 +476,7 @@ class ChatBot(Client):
                 reply = "i dont understan please entered a full message"
                 sendMsg()
             elif ("frank gand")
-                reply ("lund la la)
+                reply ("lund la la")
                 sendMsg()
             elif ("frank i love you" in msg):
                 reply = "ok then"
