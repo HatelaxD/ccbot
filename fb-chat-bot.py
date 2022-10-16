@@ -12,7 +12,6 @@ import os
 import concurrent.futures
 from difflib import SequenceMatcher, get_close_matches
 
-a "*frank"
 
 class ChatBot(Client):
 
@@ -478,7 +477,7 @@ class ChatBot(Client):
             elif ("frank gand" in msg):
                 reply = ("lund la la")
                 sendMsg()
-            elif ("(a) dosti" in msg):
+            elif ("*dosti" in msg):
                 reply = "han pahla lund chatna pra ga"
                 sendMsg()
             elif ("frank i love you" in msg):
