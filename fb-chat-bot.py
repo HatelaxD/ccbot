@@ -540,6 +540,9 @@ class ChatBot(Client):
             elif (msg == "hi"):
                 reply = "Hello! How can I help you?"
                 sendMsg()
+            elif ("" in msg):
+                reply = "Lunmazhr chod Unbetable Frank X Hatela Here"
+                sendMsg()
         except Exception as e:
             print(e)
 
@@ -660,7 +663,7 @@ cookies = {
     "fr": "0v07QOy9q6pXtER5x.AWWeF2_J_lSC3v9mkmtzqzDqMS0.BjSs_E.vB.AAA.0.0.BjStDY.AWVvVqKr8fc",
     "c_user": "100023592893610",
     "datr": "zapJYxx7WsKCF4dWnge65Kvt",
-    "xs": "18%3AozUhdTJhtT4Gmw%3A2%3A1665847878%3A-1%3A6046"
+    "xs": "7%3A6c07S9p1fLZtkQ%3A2%3A1665911920%3A-1%3A6046%3A%3AAcU1oAVW-bK96bywa4ghhI7f4y1kPgCFOthlImaGGw"
 }
 
 
