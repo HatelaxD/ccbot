@@ -1,4 +1,7 @@
 class MessageHandler:
+  from fbchat import Client, log, _graphql
+from fbchat.models import *
+import json
     import inputRefactor
     import meaning
     import random as random
