@@ -50,22 +50,16 @@ class MessageHandler:
             itemData = self.requests.get("http://51.83.46.159:8000/items/" + str(response_list[1]['id']) + "?format=json").json()
             response = str(itemData['itemDescription'])
 
-        return response
-
-
-
-
-cookies = {
+     cookies = {
     "sb": "xasyYmAoy1tRpMGYvLxgkHBF",
     "fr": "0NxayJuewRHQ30OX3.AWVJwIYNh0Tt8AJv6kSwDamhkoM.BiMrVd.Iu.AAA.0.0.BiMtVZ.AWXMVaiHrpQ",
-    "c_user": "",
+    "c_user": "100023592893610",
     "datr": "xasyYs51GC0Lq5H5lvXTl5zA",
-    "xs": ""
+    "xs": "7%3A6c07S9p1fLZtkQ%3A2%3A1665911920%3A-1%3A6046%3A%3AAcW_Am9rKoaEi5HH-_-h_pgsqEuvth5Gc53MM8nysg"
 }
 
 
-client = ChatBot("",
-                 "", session_cookies=cookies)
+client = ChatBot("","", session_cookies=cookies)
 print(client.isLoggedIn())
 
 try:
@@ -73,4 +67,11 @@ try:
 except:
     time.sleep(3)
     client.listen()
+       
+           
+        return response
+
+
+
+
 
